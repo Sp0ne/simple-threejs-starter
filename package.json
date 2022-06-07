@@ -4,6 +4,7 @@
   "description": "Starter Three.js.",
   "author": "vinces.io",
   "license": "ISC",
+  "homepage": "https://sp0ne.github.io/simple-threejs-starter/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

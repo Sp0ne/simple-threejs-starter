@@ -31,7 +31,6 @@ const canvas = document.querySelector('canvas.webgl')
 // Scene
 const scene = new THREE.Scene()
 
-
 /**
  * -----------------------------------------------------
  * DEBBUGER TWEAKPANE
@@ -39,7 +38,7 @@ const scene = new THREE.Scene()
  */
 // Debbuger
 const tweakpane = new Pane({ title: '☠ Parameters' })
-tweakpane.containerElem_.style.width = '250px'
+tweakpane.containerElem_.style.width = '280px'
 tweakpane.registerPlugin(EssentialsPlugin)
 
 // Set Graph FPS
@@ -91,6 +90,7 @@ const controls = new OrbitControls(camera, canvas)
 controls.enableDamping = true
 controls.minDistance = 0
 controls.maxDistance = 80
+controls.autoRotateSpeed = -5
 
 // Debugger
 const debugCam = tweakpane.addFolder({ title: '📹 Cameras 〢 Controls', expanded: false })

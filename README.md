@@ -1,8 +1,8 @@
 # Simple Three.js Starter 
 
-> Fun 3D Web-First Experience. 🕹️ 
+_Fun 3D Web-First Experience with Three.js._ 
 
-🧪 **v0.0.1** 
+🧪 **v0.0.1** **〢** [Live Demo](https://sp0ne.github.io/simple-threejs-starter/) 
 
 ---
 
@@ -14,7 +14,8 @@
 ## 📖 Features
 
 
-- 📦 Three.js **v0.141.0** **〢** 📦 Node.js **v14.19 min**
+- Node.js [**v14.19 min**](https://nodejs.org/en/) 📦
+- Three.js [**v0.141.0**](https://github.com/mrdoob/three.js/) 📦
 - Powered with [Vite](https://vite.dev/) 📦
 - UI controls using [Tweakpane](https://cocopon.github.io/tweakpane/) 🎛
 - Animate by [GSAP](https://greensock.com/docs/v3/GSAP)
@@ -46,18 +47,30 @@ yarn serve
 # npm run build
 yarn build
 
-# Lints & fixes files
-# npm run lint
-yarn lint
 
-# Prettier & format files
-# npm run format
-yarn format
+# Deploy on Gh-pages
+# npm run deploy
+yarn deploy
 ```
 
-#### Goto application
+**App running at on [localhost:9000/simple-threejs-starter/](http://localhost:9000/simple-threejs-starter/)**
 
-**App running at on [localhost](http://localhost:9000)**
+
+
+### ⚙️ Config vite ⚡
+
+Change config in `vite.config.vue` if you want:
+
+```javascript
+export default defineConfig({
+  base: '/simple-threejs-starter/', // Remove or Adapt it ! (it's just for GH-PAGES)
+  // ...stuff...
+  server: {
+    port: 9000,                     // Default 9000: Adapt it !
+  },
+  // ...stuff...
+})
+```
 
 
 Reminder 📦:
@@ -66,6 +79,7 @@ Reminder 📦:
 # update dependencies. need existing yarn.lock file.
 yarn upgrade-interactive --latest
 ```
+
 
 ---
 
@@ -79,9 +93,9 @@ The issue tracker is the preferred channel for bug reports, features requests an
 ---
 
 
-## 🍭 Credits 〢 👻 🌍  🕹️
+## 🍭 Credits 〢 </💻❤>
 
-</💻❤> Originally written & currently maintained with by [@Sp0ne🧙‍♂][vinces-git] © 2022
+Originally written & currently maintained with by [@Sp0ne🧙‍♂][vinces-git] © 2022
 
 **👋🏻**: 
 🖥 [vinces.io][vinces] **〢** 
