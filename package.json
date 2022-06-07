@@ -8,12 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {},
   "devDependencies": {
     "@tweakpane/core": "^1.0.9",
     "@tweakpane/plugin-essentials": "^0.1.4",
+    "gh-pages": "^4.0.0",
     "gsap": "^3.9.1",
     "three": "^0.141.0",
     "tweakpane": "^3.0.8",
