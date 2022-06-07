@@ -1,0 +1,28 @@
+{
+  "name": "threejs-starter",
+  "version": "0.0.1",
+  "description": "Starter Three.js.",
+  "author": "vinces.io",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tweakpane/core": "^1.0.9",
+    "@tweakpane/plugin-essentials": "^0.1.4",
+    "gsap": "^3.9.1",
+    "three": "^0.141.0",
+    "tweakpane": "^3.0.8",
+    "vite": "^2.9.9",
+    "vite-plugin-glsl": "^0.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

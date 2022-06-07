@@ -1,0 +1,103 @@
+/**
+* Author: Vinces
+* Website: https://vinces.io
+* v.0.1
+*/
+
+@import url('https://fonts.googleapis.com/css?family=BenchNine');
+
+/*
+ *
+ * Josh's Custom CSS Reset - https://www.joshwcomeau.com/css/custom-css-reset/
+ *
+ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+.ns {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/*
+ *
+ * Application / Experience
+ *
+ */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: BenchNine, sans-serif;
+}
+
+
+/*
+ *
+ * Webgl Experience
+ *
+ */
+.webgl {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  /* background: #09101a; */
+}
+
+/*
+ *
+ * Tweak pane
+ *
+ */
+:root {
+  --tp-base-background-color: rgba(22, 24, 34, 0.90);
+  --tp-base-shadow-color: rgba(0, 0, 0, 0.2);
+  --tp-button-background-color: rgba(199, 201, 209, 1.00);
+  --tp-button-background-color-active: rgba(241, 241, 244, 1.00);
+  --tp-button-background-color-focus: rgba(227, 228, 232, 1.00);
+  --tp-button-background-color-hover: rgba(213, 214, 221, 1.00);
+  --tp-button-foreground-color: rgba(22, 24, 34, 1.00);
+  --tp-container-background-color: rgba(31, 34, 51, 1.00);
+  --tp-container-background-color-active: rgba(59, 66, 99, 1.00);
+  --tp-container-background-color-focus: rgba(50, 55, 83, 1.00);
+  --tp-container-background-color-hover: rgba(40, 45, 67, 1.00);
+  --tp-container-foreground-color: rgba(199, 201, 209, 1.00);
+  --tp-groove-foreground-color: rgba(16, 18, 24, 1.00);
+  --tp-input-background-color: rgba(16, 18, 24, 1.00);
+  --tp-input-background-color-active: rgba(42, 48, 75, 1.00);
+  --tp-input-background-color-focus: rgba(33, 37, 59, 1.00);
+  --tp-input-background-color-hover: rgba(27, 29, 40, 1.00);
+  --tp-input-foreground-color: rgba(199, 201, 209, 1.00);
+  --tp-label-foreground-color: rgba(108, 113, 137, 1.00);
+  --tp-monitor-background-color: rgba(16, 18, 24, 1.00);
+  --tp-monitor-foreground-color: rgba(108, 113, 137, 1.00);
+}
+
