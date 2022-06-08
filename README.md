@@ -1,12 +1,12 @@
 # Simple Three.js Starter 
 
-_Fun 3D Web-First Experience with Three.js._ 
+_Simple Three.js boilerplate powered by Vite for fast experience starter._ 
 
 🧪 **v0.0.1** **〢** [Live Demo](https://sp0ne.github.io/simple-threejs-starter/) 
 
 ---
 
-![Screen Starter](public/screenshots/demo.gif)
+![Screen Starter](public/screenshots/demo-2.gif)
 
 ---
 
@@ -19,7 +19,9 @@ _Fun 3D Web-First Experience with Three.js._
 - Powered with [Vite](https://vite.dev/) 📦
 - UI controls using [Tweakpane](https://cocopon.github.io/tweakpane/) 🎛
 - Animate by [GSAP](https://greensock.com/docs/v3/GSAP)
-
+- Simple Shaders support (glsl) with [vite-plugin-glsl](https://github.com/UstymUkhman/vite-plugin-glsl) 🎨
+- Minimal Raycasting.
+- Simple texture support / loader
 
 ---
 
@@ -46,7 +48,6 @@ yarn serve
 # Build & minifies for production
 # npm run build
 yarn build
-
 
 # Deploy on Gh-pages
 # npm run deploy

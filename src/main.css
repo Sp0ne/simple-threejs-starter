@@ -72,6 +72,41 @@ html, body {
   /* background: #09101a; */
 }
 
+#monitoring {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  transition: opacity 300ms;
+  font-size: 0.70rem;
+  text-align: left;
+  /*display: flex;*/
+  flex-direction: column;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  z-index: 2;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: flex-start;
+  width: calc(100% - 20px);
+}
+#monitoring div {
+  display: inline-flex;
+  margin: 0 3px;
+  line-height: 0.8rem;
+}
+#monitoring div span {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right : 5px;
+  /*width: 30px;*/
+}
+#monitoring div span#nb_fps {
+  width: 30px;
+}
 /*
  *
  * Tweak pane
