@@ -20,7 +20,7 @@
     "gsap": "^3.9.1",
     "three": "^0.141.0",
     "tweakpane": "^3.0.8",
-    "vite": "^2.9.13",
+    "vite": "^2.9.16",
     "vite-plugin-glsl": "^0.1.1"
   },
   "browserslist": [
